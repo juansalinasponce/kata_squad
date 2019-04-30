@@ -2,9 +2,9 @@
 pipeline {
   agent any
   stages {
-    stage('Hola Mundo Aptitus') {
+    stage('Hola Mundo en Jenkins') {
       steps {
-        echo 'make command'
+        echo 'Hola Equipo Aptitus Squad'
       }
     }
   }
