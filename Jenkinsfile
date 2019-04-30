@@ -2,11 +2,9 @@
 pipeline {
   agent any
   stages {
-    stage('Hola Mundo') {
+    stage('Hola Mundo Aptitus') {
       steps {
-        withEnv(enviromentArray){
-          sh 'make command'
-        }
+        sh 'make command'
       }
     }
   }
