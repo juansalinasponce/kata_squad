@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Hola Mundo Aptitus') {
       steps {
-        sh 'make command'
+        echo 'make command'
       }
     }
   }
